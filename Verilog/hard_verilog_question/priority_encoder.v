@@ -13,4 +13,18 @@ module top_module (
     pos = 2'b00;
     else pos = 2'b00;
     end
+
+   /* always @(*) begin
+    case (din)
+        3'b000: dout = 2'b00;
+        3'b001: dout = 2'b00;
+        3'b010: dout = 2'b01;
+        3'b011: dout = 2'b01;
+        3'b100: dout = 2'b10;
+        3'b101: dout = 2'b10;
+        3'b110: dout = 2'b10;
+        3'b111: dout = 2'b10;
+        default: dout = 2'b00;
+    endcase
+end */
 endmodule
