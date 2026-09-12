@@ -62,7 +62,7 @@ always @(*) begin
         end
 
         default: begin
-            next_state = S0;
+            next_state = S0; //bcz s0 represent remainder 0
         end
     endcase
 end
